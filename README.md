@@ -3,55 +3,59 @@
   <h1 align="center">Documentação do Visual Studio Code</h1>
 </p>
 
-You've found the Visual Studio Code documentation GitHub repository, which contains the content for the [Visual Studio Code documentation](https://code.visualstudio.com/docs).
+Você encontrou o repositório GitHub da documentação do Visual Studio Code, que contém o conteúdo para a [Documentação do Visual Studio Code](https://code.visualstudio.com/docs).
 
-Topics submitted here will be published to the [Visual Studio Code](https://code.visualstudio.com) portal.
+Os tópicos enviados aqui serão publicados no portal do [Visual Studio Code](https://code.visualstudio.com).
 
-If you are looking for the VS Code product GitHub repository, you can find it [here](https://github.com/Microsoft/vscode).
+Se você está procurando pelo repositório GitHub do produto VS Code, você pode encontrá-lo [aqui](https://github.com/Microsoft/vscode).
 
 ## Index
 
-1. [About Visual Studio Code](#visual-studio-code)
+1. [Sobre Visual Studio Code](#visual-studio-code)
 2. [Feedback](#feedback)
-3. [Documentation Issues](#documentation-issues)
-4. [Contributing to the documentation](#contributing)
-5. [Publishing](#publishing)
+3. [Documentação de Issues](#documentation-issues)
+4. [Contribuindo para a documentação](#contributing)
+5. [Publicação](#publishing)
 
 ## Visual Studio Code
 
-[VS Code](https://code.visualstudio.com/) is a lightweight source code editor and powerful development environment for building and debugging modern web and cloud applications. It is free and available on your favorite platform - Linux, macOS, and Windows.
+[VS Code](https://code.visualstudio.com/) é um editor de código-fonte leve e um poderoso ambiente de desenvolvimento para criar e depurar aplicativos modernos da Web e da nuvem. É gratuito e está disponível na sua plataforma favorita - Linux, macOS e Windows.
 
-If you landed here looking for other information about VS Code, head over to [our website](https://code.visualstudio.com) for additional information.
+Se você chegou aqui procurando outras informações sobre o VS Code, acesse [nosso site] (https://code.visualstudio.com) para obter informações adicionais.
 
 ## Feedback
 
-If you want to give documentation feedback, please use the feedback control located at the bottom of each documentation page.
+Se você quiser dar um feedback da documentação, por favor, use o controle de feedback localizado na parte inferior de cada página de documentação.
 
-## Documentation Issues
+## Documentação de Issues
 
 To enter documentation bugs, please create a [new GitHub issue](https://github.com/Microsoft/vscode-docs/issues). Please check if there is an existing issue first.
 
-If you think the issue is with the VS Code product itself, please enter issues in the VS Code product repo [here](https://github.com/Microsoft/vscode/issues).
+Para inserir erros de documentação, crie um [new GitHub issue] (https://github.com/Microsoft/vscode-docs/issues). Por favor, verifique se existe um problema (issues) existente primeiro.
 
-## Contributing
+Se você acha que o problema é com o próprio produto VS Code, insira os problemas no repositório de produtos do VS Code [aqui] (https://github.com/Microsoft/vscode/issues).
 
-To contribute with new topics / information or make changes to existing documentation, please read the [Contributing Guideline](./CONTRIBUTING.md#contributing).
+## Contribuindo
+
+Para contribuir com novos tópicos / informações ou fazer alterações na documentação existente, leia a [Diretriz Contribuinte] 
+(./CONTRIBUTING.md#contributing).
 
 ### Workflow
 
-The two suggested workflows are:
+Os dois workflows sugeridos são:
 
-- For small changes, use the "Edit" button on each page to edit the Markdown file directly on GitHub.
-- If you plan to make significant changes or preview the Markdown files in VS Code, [clone](#cloning) the repo to [edit and preview](https://code.visualstudio.com/docs/languages/markdown) the files directly in VS Code.
+- Para pequenas alterações, use o botão "Edit" em cada página para editar o arquivo Markdown diretamente no GitHub.
+- Se você planeja fazer alterações significativas ou visualizar os arquivos Markdown no Código VS, [clone] (#cloning) o repo para [editar e visualizar] (https://code.visualstudio.com/docs/languages/markdown) os arquivos diretamente no código VS.
 
 ![Markdown Preview Button](images/MDPreviewButton.png)
 
 ### Cloning
 
-1. Install [Git LFS](https://git-lfs.github.com/).
-2. Run `git lfs install` to setup global git hooks. You only need to run this once per machine.
+1. Instalar [Git LFS](https://git-lfs.github.com/).
+2. Rode o comando `git lfs install` para configurar como global o git hooks. Você só precisa executar isso uma vez por máquina.
 3. `git clone git@github.com:Microsoft/vscode-docs.git`.
 4. Now you can `git add` binary files and commit them. They'll be tracked in LFS.
+4. Agora você pode realizar `git add` dos arquivos binários e cometa-los.
 
 #### Cloning without binary files
 
@@ -69,6 +73,6 @@ You might want to clone the repo without the 1.6GB images. Here are the steps:
 
 The history of this repo before we adopted LFS can be found at [microsoft/vscode-docs-archive](https://github.com/Microsoft/vscode-docs-archive).
 
-## Publishing
+## Publicação
 
-Steps for how to publish documentation changes can be found [here](https://github.com/Microsoft/vscode-website#publishing-a-documentation-change) in the (private) repository of the VS Code website.
+Passos para a publicação de alterações na documentação podem ser encontrados [aqui](https://github.com/Microsoft/vscode-website#publishing-a-documentation-change) no repositório (privado) do site do VS Code.
